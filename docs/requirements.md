@@ -42,6 +42,7 @@
 - Rejected sales deduct any advance already paid
 - User can withdraw only once every 24 hours
 - Failed withdrawls restore the user's withdrawable balance.
+- Track record of all money movements
 
 # Non functional Requirements
 

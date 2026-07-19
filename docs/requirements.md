@@ -1,4 +1,4 @@
-# Understanding
+# For personal understanding
 
 ## What is the system ?
 

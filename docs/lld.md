@@ -41,7 +41,6 @@ Responsibilities
 - Give withdrawal
 - Check if no other withdrawal was made in past 24 hours
 - Create wallet transaction
-- Update user balance
 - Pass to payment gateway
 - handle result of payment gateway
 - update user balance

@@ -16,6 +16,8 @@
 - Fields : Id , balance, sales[],
 - Relationships : User has sales , User creates payout
 
+<br>
+
 | Column     | Type      | Description                  |
 | ---------- | --------- | ---------------------------- |
 | id         | UUID      | Primary key                  |
@@ -73,12 +75,12 @@
 
 <br>
 
-| Column       | Type        | Description                                                                                                  |
-| ------------ | ----------- | ------------------------------------------------------------------------------------------------------------ |
-| id           | UUID        | Primary key                                                                                                  |
-| amount       | Decimal     | Amount which was incremented or decremented                                                                  |
-| type         | String      | wallet transaction types - ADVANCE_PAYOUT, FINAL_PAYOUT, REJECTION_ADJUSTMENT, WITHDRAWAL, WITHDRAWAL_REFUND |
-| userId       | UUID        | Foreign key to user                                                                                          |
-| saleId       | UUID / NULL | Foreign key to sale if the sale initiated this                                                               |
-| withdrawalId | UUID / NULL | Foreign key to withdrawal if it initiated it                                                                 |
-| createdAt    | Timestamp   | ...                                                                                                          |
+| Column       | Type      | Description                                                                                                  |
+| ------------ | --------- | ------------------------------------------------------------------------------------------------------------ |
+| id           | UUID      | Primary key                                                                                                  |
+| amount       | Decimal   | Amount which was incremented or decremented                                                                  |
+| type         | String    | wallet transaction types - ADVANCE_PAYOUT, FINAL_PAYOUT, REJECTION_ADJUSTMENT, WITHDRAWAL, WITHDRAWAL_REFUND |
+| userId       | UUID      | Foreign key to user                                                                                          |
+| saleId       | UUID      | Foreign key to sale if the sale initiated this                                                               |
+| withdrawalId | UUID      | Foreign key to withdrawal if it initiated it                                                                 |
+| createdAt    | Timestamp | ...                                                                                                          |

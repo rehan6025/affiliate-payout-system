@@ -1,7 +1,7 @@
 import { db } from "../data/db.js";
 import { WalletTransaction } from "../models/WalletTransaction.js";
 
-class AdvancePayoutService {
+export class AdvancePayoutService {
     constructor() {}
 
     claimAdvance(saleId) {

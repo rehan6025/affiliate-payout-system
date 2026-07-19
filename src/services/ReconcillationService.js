@@ -1,7 +1,7 @@
-import { db } from "../data/db";
-import { WalletTransaction } from "../models/WalletTransaction";
+import { db } from "../data/db.js";
+import { WalletTransaction } from "../models/WalletTransaction.js";
 
-class ReconcillationService {
+export class ReconcillationService {
     constructor() {}
 
     reconcileSale(saleId, status) {

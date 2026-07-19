@@ -1,8 +1,8 @@
 import { db } from "../data/db.js";
 import { Withdrawal } from "../models/Withdrawal.js";
-import { WalletTransaction } from "../models/WalletTransaction";
+import { WalletTransaction } from "../models/WalletTransaction.js";
 
-class WithdrawalService {
+export class WithdrawalService {
     constructor() {}
 
     requestWithdrawal(userId, amount) {
